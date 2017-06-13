@@ -69,8 +69,23 @@ a {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-p {
+
+	p {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+   
+      }
+
+
+@media screen and (min-width: 1440px) {
+    p {
+        font-size: 40px
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    p {
+        font-size: 25px
+    }
 }
