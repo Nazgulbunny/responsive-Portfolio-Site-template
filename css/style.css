@@ -1,6 +1,36 @@
 /*Personal css style */
+
+a {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+p {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+/*Media Queries*/
+
+@media screen and (min-width: 1440px) {
+    p {
+        font-size: 40px
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    p {
+        font-size: 25px
+    }
+}
 /*Headers*/
 
+header {
+    border-bottom: solid;
+    color: #7d97ad;
+    margin-bottom: 15px;
+}
 h1 {
     color: #7d97ad;
     font-family: 'Lato', sans-serif;
@@ -19,6 +49,12 @@ h4 {
     text-align: right;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+}
+footer {
+    border-top: solid;
+    margin-bottom: 15px;
+    color: #7d97ad;
+    text-align: center;
 }
 /* IDs*/
 
@@ -62,30 +98,9 @@ h4 {
 .img-thumbnail:last-of-type {
     margin-right: 0;
 }
-hr {
-    border-top: 5px solid #7d97ad;
-}
-a {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-p {
-    text-transform: uppercase;
+#contact {
+    font-size: auto;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-}
-/*Media Queries*/
-
-@media screen and (min-width: 1440px) {
-    p {
-        font-size: 40px
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-    p {
-        font-size: 25px
-    }
+    text-align: center;
+    color: #2d3c49;
 }
