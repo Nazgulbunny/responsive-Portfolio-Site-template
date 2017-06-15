@@ -5,11 +5,12 @@ Responsive portfolio template ready to
 *All content is responsive and displays on all display sizes. 
 
 *This includes:
-  *Desktop
   
-  *Mobile: Google Nexus 5
-  
-  *Tablet: Apple iPad
+     *Desktop
+
+     *Mobile: Google Nexus 5
+
+     *Tablet: Apple iPad
   
 *Page utilizes a grid-based layout with styles making use of the flexbox layout and a framework like Bootstrap
  
