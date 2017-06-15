@@ -16,6 +16,6 @@ Responsive portfolio template ready to
  
 *All content is rendered on all three devices.
 
-*HTML5 semantic tags such as <header>, <footer>, <article>, <section> etc. are used to add meaning to the code.
+*HTML5 semantic tags such as header, footer, article,section etc. are used to add meaning to the code.
 
-*No <div> or <section> tags are without a CSS class or id.
+*No div or section tags are without a CSS class or id.
