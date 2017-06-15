@@ -5,7 +5,6 @@ Responsive portfolio template ready to
 *All content is responsive and displays on all display sizes. 
 
 *This includes:
-
   *Desktop
   
   *Mobile: Google Nexus 5
