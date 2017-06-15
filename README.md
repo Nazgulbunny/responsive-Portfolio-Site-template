@@ -5,13 +5,13 @@ Easy ready to go responsive portfolio template.
 
 * All content is responsive and displays on all display sizes. 
 
-* This includes:    
+    This includes:    
 
-* Desktop
+  * Desktop
 
-* Mobile: Google Nexus 5
+  * Mobile: Google Nexus 5
 
-* Tablet: Apple iPad
+  * Tablet: Apple iPad
 
 * HTML5 semantic tags such as header,footer, article, section etc. are used to add meaning to the code.
 
