@@ -6,6 +6,9 @@ a {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+    text-align: center;
+    font-family: "Lato", sans-serif
+
 }
 p {
     text-transform: uppercase;
@@ -55,14 +58,19 @@ footer {
     color: #7d97ad;
     text-align: left;
 }
-#project {
+#project-port {
     text-align: center;
     font-family: "Lato", sans-serif;
 }
-#link {
+#project-blog {
     text-align: center;
     font-family: "Lato", sans-serif;
 }
+#project-sport {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
 /*Colunms*/
 
 .col-xs-3 {

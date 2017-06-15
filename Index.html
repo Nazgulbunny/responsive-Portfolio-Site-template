@@ -5,99 +5,109 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Portfolio</title>
+
+      <!--Css-->
       <link rel="stylesheet"  href="css/bootstrap.css">
-      <script  src="js/bootstrap.js"></script>
       <link rel="stylesheet"  href="css/style.css">
+
+      <!--js and jquery and scripts-->
+      <script src="js/jquery-3.2.1.js"></script>
+      <script  src="js/bootstrap.js"></script>
+
+      <!--google fonts and font-awesome-->
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
       <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
    </head>
    <body>
-
       <!--Container starts here-->
       <div class="container">
 
-         <!--header starts here-->
-         <header>
-            <div class="row" >
-               <div class="col-xs-3">
-                  <img  src="images/ninja.svg" sizes="(max-width:400px)100vw,(min-width:401px)50vw" srcset="images/ninja.svg 400w,images/ninja.svg 800w" class="img-responsive"  alt="ninjadev-logo">
-               </div>
-               <div class="col-xs-9">
-                  <h1 id="name">Massimiliano Sermi</h1>
-                  <h4>Front developer ninja</h4>
-               </div>
+      <!--header starts here-->
+      <header>
+         <div class="row" >
+            <div class="col-xs-3">
+               <img  src="images/ninja.svg" sizes="100vw" srcset="images/ninja.svg 1024w,images/ninja.svg 640w, images/ninja.svg 320w"  class="img-responsive"  alt="ninjadev-logo">
             </div>
-         </header>
-
-         <!--Main section starts here-->
-         <main>
-            <div class="row">
-               <div class="col-md-12">
-                  <img src="images/html.jpg"  class="img-thumbnail"  alt="html_code_example">
-               </div>
-            </div>
-         </main>
-
-         <!--Featured section for portfolio image starts here-->
-         <div class="row">
-            <div class="col-md-12">
-               <h2 id="work">Featured Work</h2>
+            <div class="col-xs-9">
+               <h1 id="name">Massimiliano Sermi</h1>
+               <h4>Front developer ninja</h4>
             </div>
          </div>
+      </header>
+      <!--header ends here-->
 
-         <!--Porfolio gallery starts here-->
-         <div class="row">
+      <!--Main image starts here-->
+      <div class="row">
+         <div class="col-md-12">
+            <img src="images/html.jpg" sizes="100vw" srcset="images/html.jpg 1024w,images/html.jpg 640w, images/html.jpg 320w"  class="img-thumbnail"  alt="html_code_example">
+         </div>
+      </div>
+      <!--Main image ends here-->
+
+      <!--Featured section for portfolio image starts here-->
+      <div class="row">
+         <div class="col-md-12">
+            <h2 id="work">Featured Work</h2>
+         </div>
+      </div>
+      <!-- Main porfolio gallery starts here-->
+
+      <div class="row">
+         <main>
             <div class="col-md-4">
                <img src="images/portfolio.png" class="img-thumbnail" alt="Start-up_portfolio">
                <article>
-                  <p id="project">Portfolio</p>
-                  <a id="link" href="https://codepen.io/Nazgulrabbit/full/EKyxZa/" target="_blank">Click Here</a>
+                  <p id="project-port">Portfolio</p>
+                  <a href="https://codepen.io/Nazgulrabbit/full/EKyxZa/" target="_blank">Click Here</a>
                </article>
             </div>
             <div class="col-md-4">
                <img src="images/bloggy.png" class="img-thumbnail" alt="Virtual_reality_blog">
                <article>
-                  <p id="project">Blog</p>
-                  <a id="link" href="http://www.whatsupvirtualreality.com/home.html" target="_blank">Click here</a>
+                  <p id="project-blog">Blog</p>
+                  <a href="http://www.whatsupvirtualreality.com/home.html" target="_blank">Click here</a>
                </article>
             </div>
             <div class="col-md-4">
                <img src="images/sport.png" class="img-thumbnail" alt="social_esport_site">
                <article>
-                  <p id="project">Esport Site</p>
-                  <a id="link" href="http://www.videogamesrate.com/" target="_blank">Click here</a>
+                  <p id="project-sport">Esport Site</p>
+                  <a href="http://www.videogamesrate.com/" target="_blank">Click here</a>
                </article>
             </div>
-         </div>
-         <!--Porfolio gallery ends here-->
+         </main>
+      </div>
+      <!--Main porfolio gallery ends here-->
 
-         <!--footer section starts here-->
-         <footer>
-            <div class="row">
-               <div class="col-md-12"></div>
+      <!--footer section starts here-->
+      <footer>
+         <div class="row">
+            <div class="col-md-12">
                <p id="contact">Created and Developed by Massimiliano Sermi.
             </div>
-            <div class="col-md-4">
-               <a href="" target="_blank"><span class="fa-stack">
-               <i class="fa fa-linkedin fa-stack-2x"></i>
-               </span></a>
+         </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <a href="" target="_blank"><span class="fa-stack">
+                  <i class="fa fa-linkedin fa-stack-2x"></i>
+                  </span></a>
+               </div>
+               <div class="col-md-4">
+                  <a href="" target="_blank"><span class="fa-stack">
+                  <i class="fa fa-github fa-stack-2x"></i>
+                  </span></a>
+               </div>
+               <div class="col-md-4">
+                  <a href="" target="_blank"><span class="fa-stack">
+                  <i class="fa fa-envelope-open fa-stack-2x"></i>
+                  </span></a>
+               </div>
             </div>
-            <div class="col-md-4">
-               <a href="" target="_blank"><span class="fa-stack">
-               <i class="fa fa-github fa-stack-2x"></i>
-               </span></a>
-            </div>
-            <div class="col-md-4">
-               <a href="" target="_blank"><span class="fa-stack">
-               <i class="fa fa-envelope-open fa-stack-2x"></i>
-               </span></a>
-            </div>
-      </div>
       </footer>
       <!--footer section ends here-->
 
       </div>
       <!--Container ends here-->
-
+      
    </body>
 </html>
